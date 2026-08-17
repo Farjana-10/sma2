@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { RefreshCw } from 'lucide-react'
 
-import { AppShell } from '../components/AppShell'
+import { AppShell } from '../components/Appshell'
 import { FeedCard } from '../components/FeedCard'
 import { FilterBar } from '../components/FilterBar'
 import { EmptyState, ErrorMessage, GuestBanner, LoadingSpinner } from '../components/StateViews'

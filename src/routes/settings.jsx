@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { toast } from 'sonner'
 
-import { AppShell } from '../components/AppShell'
+import { AppShell } from '../components/Appshell'
 import { InterestSelector } from '../components/InterestSelector'
 import { Button } from '../components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card'

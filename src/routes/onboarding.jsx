@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ArrowLeft, ArrowRight, Check } from 'lucide-react'
 
-import { AppShell } from '../components/AppShell'
+import { AppShell } from '../components/Appshell'
 import { InterestSelector } from '../components/InterestSelector'
 import { Button } from '../components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card'

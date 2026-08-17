@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Bookmark, Clock, Heart, Mail, User } from 'lucide-react'
 
-import { AppShell } from '../components/AppShell'
+import { AppShell } from '../components/Appshell'
 import { GuestBanner } from '../components/StateViews'
 import { Badge } from '../components/ui/badge'
 import { Button } from '../components/ui/button'

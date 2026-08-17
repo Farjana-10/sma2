@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Bookmark, ExternalLink, Trash2 } from 'lucide-react'
 
-import { AppShell } from '../components/AppShell'
+import { AppShell } from '../components/Appshell'
 import { EmptyState, GuestBanner } from '../components/StateViews'
 import { Badge } from '../components/ui/badge'
 import { Button } from '../components/ui/button'

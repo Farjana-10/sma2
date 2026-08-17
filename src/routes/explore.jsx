@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { Flame, Hash, TrendingUp } from 'lucide-react'
 
-import { AppShell } from '../components/AppShell'
+import { AppShell } from '../components/Appshell'
 import { FeedCard } from '../components/FeedCard'
 import { ErrorMessage, LoadingSpinner } from '../components/StateViews'
 import { Badge } from '../components/ui/badge'

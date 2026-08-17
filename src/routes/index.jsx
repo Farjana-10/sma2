@@ -2,7 +2,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { ArrowRight, Clock, Layers, Sparkles, ShieldCheck } from 'lucide-react'
 import { useState } from 'react'
 
-import { AppShell } from '../components/AppShell'
+import { AppShell } from '../components/Appshell'
 import { InterestSelector } from '../components/InterestSelector'
 import { Button } from '../components/ui/button'
 import { Card, CardContent } from '../components/ui/card'
