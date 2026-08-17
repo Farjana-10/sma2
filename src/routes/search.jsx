@@ -1,13 +1,13 @@
 import { useMemo, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { useQuery } from '@tanstack/react-query'
+import { useQuery } from '..tanstack/react-query'
 import { Search as SearchIcon } from 'lucide-react'
 
-import { AppShell } from '@/components/AppShell'
-import { FeedCard } from '@/components/FeedCard'
-import { FilterBar } from '@/components/FilterBar'
-import { EmptyState, ErrorMessage, LoadingSpinner } from '@/components/StateViews'
-import { api } from '@/lib/api'
+import { AppShell } from '../components/AppShell'
+import { FeedCard } from '../components/FeedCard'
+import { FilterBar } from '../components/FilterBar'
+import { EmptyState, ErrorMessage, LoadingSpinner } from '../components/StateViews'
+import { api } from '../lib/api'
 
 export default function Search() {
   const [searchParams] = useSearchParams()

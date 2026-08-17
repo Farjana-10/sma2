@@ -1,7 +1,7 @@
 import { Link, useNavigate, useLocation, useSearchParams } from 'react-router-dom'
 import { Loader2, Inbox, AlertTriangle, LogIn } from 'lucide-react'
 
-import { Button } from '@/components/ui/button'
+import { Button } from '../components/ui/button'
 
 export function LoadingSpinner({ label = 'Loading your feed…' }) {
   return (

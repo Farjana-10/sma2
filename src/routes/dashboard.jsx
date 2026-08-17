@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom'
 import { Activity, Bookmark, Clock, Heart, Eye, Search } from 'lucide-react'
 
-import { AppShell } from '@/components/AppShell'
-import { GuestBanner } from '@/components/StateViews'
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Progress } from '@/components/ui/progress'
-import { useApp } from '@/hooks/useApp'
-import { formatDuration, formatMinutes, topicLabel } from '@/lib/topics'
+import { AppShell } from '../components/AppShell'
+import { GuestBanner } from '../components/StateViews'
+import { Badge } from '../components/ui/badge'
+import { Button } from '../components/ui/button'
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
+import { Progress } from '../components/ui/progress'
+import { useApp } from '../hooks/useApp'
+import { formatDuration, formatMinutes, topicLabel } from '../lib/topics'
 
 export default function Dashboard() {
   const { prefs, secondsUsed, extraSeconds, saved, activity, likedIds, usageHistory, searches, isGuest } = useApp()

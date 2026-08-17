@@ -1,7 +1,7 @@
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
-import { cn } from '@/lib/utils'
-import { SOURCES, TOPIC_BY_SLUG } from '@/lib/topics'
+import { Badge } from '../components/ui/badge'
+import { Button } from '../components/ui/button'
+import { cn } from '../lib/utils'
+import { SOURCES, TOPIC_BY_SLUG } from '../lib/topics'
 
 export function FilterBar({
   topics,

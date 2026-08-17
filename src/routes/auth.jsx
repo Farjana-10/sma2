@@ -2,13 +2,13 @@ import { useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router-dom'
 import { toast } from 'sonner'
 
-import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Input } from '@/components/ui/input'
-import { Label } from '@/components/ui/label'
-import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs'
-import { supabase } from '@/integrations/supabase/client'
-import { useApp } from '@/hooks/useApp'
+import { Button } from '../components/ui/button'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card'
+import { Input } from '../components/ui/input'
+import { Label } from '../components/ui/label'
+import { Tabs, TabsList, TabsTrigger } from '../components/ui/tabs'
+import { supabase } from '../integrations/supabase/client'
+import { useApp } from '../hooks/useApp'
 
 export default function Auth() {
   const [searchParams] = useSearchParams()

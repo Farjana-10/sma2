@@ -1,16 +1,16 @@
 import { useState } from 'react'
 import { toast } from 'sonner'
 
-import { AppShell } from '@/components/AppShell'
-import { InterestSelector } from '@/components/InterestSelector'
-import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Input } from '@/components/ui/input'
-import { Label } from '@/components/ui/label'
-import { Switch } from '@/components/ui/switch'
-import { useApp } from '@/hooks/useApp'
-import { SOURCES, TIME_LIMIT_OPTIONS, formatMinutes } from '@/lib/topics'
-import { cn } from '@/lib/utils'
+import { AppShell } from '../components/AppShell'
+import { InterestSelector } from '../components/InterestSelector'
+import { Button } from '../components/ui/button'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../components/ui/card'
+import { Input } from '../components/ui/input'
+import { Label } from '../components/ui/label'
+import { Switch } from '../components/ui/switch'
+import { useApp } from '../hooks/useApp'
+import { SOURCES, TIME_LIMIT_OPTIONS, formatMinutes } from '../lib/topics'
+import { cn } from '../lib/utils'
 
 export default function Settings() {
   const { prefs, savePrefs, resetRecommendations, timerPaused, setTimerPaused } = useApp()

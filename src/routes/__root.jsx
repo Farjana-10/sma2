@@ -7,8 +7,8 @@ import {
   Scripts,
 } from '@tanstack/react-router'
 
-import { AppProvider } from '@/hooks/useApp'
-import { Toaster } from '@/components/ui/sonner'
+import { AppProvider } from '../hooks/useApp'
+import { Toaster } from '../components/ui/sonner'
 
 function NotFoundComponent() {
   return (

@@ -2,14 +2,14 @@ import { useNavigate } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { Flame, Hash, TrendingUp } from 'lucide-react'
 
-import { AppShell } from '@/components/AppShell'
-import { FeedCard } from '@/components/FeedCard'
-import { ErrorMessage, LoadingSpinner } from '@/components/StateViews'
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
-import { api } from '@/lib/api'
-import { TOPICS } from '@/lib/topics'
-import { useApp } from '@/hooks/useApp'
+import { AppShell } from '../components/AppShell'
+import { FeedCard } from '../components/FeedCard'
+import { ErrorMessage, LoadingSpinner } from '../components/StateViews'
+import { Badge } from '../components/ui/badge'
+import { Button } from '../components/ui/button'
+import { api } from '../lib/api'
+import { TOPICS } from '../lib/topics'
+import { useApp } from '../hooks/useApp'
 
 export default function Explore() {
   const { prefs, savePrefs } = useApp()

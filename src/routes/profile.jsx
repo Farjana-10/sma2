@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom'
 import { Bookmark, Clock, Heart, Mail, User } from 'lucide-react'
 
-import { AppShell } from '@/components/AppShell'
-import { GuestBanner } from '@/components/StateViews'
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { useApp } from '@/hooks/useApp'
-import { formatDuration, formatMinutes, topicLabel } from '@/lib/topics'
+import { AppShell } from '../components/AppShell'
+import { GuestBanner } from '../components/StateViews'
+import { Badge } from '../components/ui/badge'
+import { Button } from '../components/ui/button'
+import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
+import { useApp } from '../hooks/useApp'
+import { formatDuration, formatMinutes, topicLabel } from '../lib/topics'
 
 export default function Profile() {
   const { userName, email, avatarUrl, memberSince, prefs, saved, likedIds, activity, secondsUsed, isGuest } = useApp()

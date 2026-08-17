@@ -5,10 +5,10 @@ import {
   Menu, Moon, Newspaper, Search, Sun, Timer, User, X 
 } from 'lucide-react'
 
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
-import { Progress } from '@/components/ui/progress'
+import { Badge } from '../components/ui/badge'
+import { Button } from '../components/ui/button'
+import { Input } from '../components/ui/input'
+import { Progress } from '../components/ui/progress'
 import { 
   DropdownMenu, 
   DropdownMenuContent, 
@@ -16,11 +16,11 @@ import {
   DropdownMenuLabel, 
   DropdownMenuSeparator, 
   DropdownMenuTrigger 
-} from '@/components/ui/dropdown-menu'
-import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/components/ui/dialog'
-import { cn } from '@/lib/utils'
-import { useApp } from '@/hooks/useApp'
-import { formatDuration } from '@/lib/topics'
+} from '../components/ui/dropdown-menu'
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '../components/ui/dialog'
+import { cn } from '../lib/utils'
+import { useApp } from '../hooks/useApp'
+import { formatDuration } from '../lib/topics'
 
 const NAV = [
   { to: '/', label: 'Home', icon: Home },

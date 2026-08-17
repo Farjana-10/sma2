@@ -2,11 +2,11 @@ import { useState } from 'react'
 import { Bookmark, BookmarkCheck, Heart, Play, ArrowUpRight, EyeOff, Link2, Share2, MessageCircle } from 'lucide-react'
 import { toast } from 'sonner'
 
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
-import { cn } from '@/lib/utils'
-import { useApp } from '@/hooks/useApp'
-import { topicLabel } from '@/lib/topics'
+import { Badge } from '../components/ui/badge'
+import { Button } from '../components/ui/button'
+import { cn } from '../lib/utils'
+import { useApp } from '../hooks/useApp'
+import { topicLabel } from '../lib/topics'
 
 const PLATFORM_STYLES = {
   reddit: { label: 'Reddit', className: 'bg-reddit/10 text-reddit border-reddit/30' },

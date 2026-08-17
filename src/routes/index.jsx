@@ -2,14 +2,14 @@ import { Link, useNavigate } from 'react-router-dom'
 import { ArrowRight, Clock, Layers, Sparkles, ShieldCheck } from 'lucide-react'
 import { useState } from 'react'
 
-import { AppShell } from '@/components/AppShell'
-import { InterestSelector } from '@/components/InterestSelector'
-import { Button } from '@/components/ui/button'
-import { Card, CardContent } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
-import { useApp } from '@/hooks/useApp'
-import { TIME_LIMIT_OPTIONS, formatMinutes, topicLabel } from '@/lib/topics'
-import { cn } from '@/lib/utils'
+import { AppShell } from '../components/AppShell'
+import { InterestSelector } from '../components/InterestSelector'
+import { Button } from '../components/ui/button'
+import { Card, CardContent } from '../components/ui/card'
+import { Badge } from '../components/ui/badge'
+import { useApp } from '../hooks/useApp'
+import { TIME_LIMIT_OPTIONS, formatMinutes, topicLabel } from '../lib/topics'
+import { cn } from '../lib/utils'
 
 export default function Index() {
   const { isGuest, userName, prefs, savePrefs } = useApp()

@@ -1,9 +1,9 @@
 import { useMemo, useState } from 'react'
 import { Check, Search } from 'lucide-react'
 
-import { Input } from '@/components/ui/input'
-import { cn } from '@/lib/utils'
-import { TOPICS } from '@/lib/topics'
+import { Input } from '../components/ui/input'
+import { cn } from '../lib/utils'
+import { TOPICS } from '../lib/topics'
 
 export function InterestSelector({ selected, onChange }) {
   const [query, setQuery] = useState('')

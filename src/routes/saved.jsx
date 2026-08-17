@@ -1,14 +1,14 @@
 import { useMemo, useState } from 'react'
 import { Bookmark, ExternalLink, Trash2 } from 'lucide-react'
 
-import { AppShell } from '@/components/AppShell'
-import { EmptyState, GuestBanner } from '@/components/StateViews'
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
-import { Input } from '@/components/ui/input'
-import { useApp } from '@/hooks/useApp'
-import { topicLabel } from '@/lib/topics'
-import { cn } from '@/lib/utils'
+import { AppShell } from '../components/AppShell'
+import { EmptyState, GuestBanner } from '../components/StateViews'
+import { Badge } from '../components/ui/badge'
+import { Button } from '../components/ui/button'
+import { Input } from '../components/ui/input'
+import { useApp } from '../hooks/useApp'
+import { topicLabel } from '../lib/topics'
+import { cn } from '../lib/utils'
 
 export default function Saved() {
   const { saved, toggleSave, isGuest } = useApp()
